@@ -99,14 +99,13 @@ input, textarea { font-family: inherit; font-size: inherit; }
   top: 0;
   z-index: 100;
   background: var(--bg);
-  border-bottom: 1px solid var(--border);
 }
 
 .demo-header-inner {
   max-width: 1100px;
   margin: 0 auto;
   padding: 0 28px;
-  height: 70px;
+  height: 90px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -128,7 +127,6 @@ main {
 .demo-hero {
   padding: 72px 28px 48px;
   text-align: center;
-  border-bottom: 1px solid var(--border);
 }
 
 .demo-hero-tag {
@@ -511,7 +509,6 @@ main {
 
 /* ── Footer ── */
 .demo-footer {
-  border-top: 1px solid var(--border);
   padding: 24px 28px;
   text-align: center;
 }
