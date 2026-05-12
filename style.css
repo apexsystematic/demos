@@ -552,5 +552,22 @@ main {
 
   .demo-header-inner {
     padding: 0 16px;
+    gap: 12px;
+  }
+
+  .demo-header-logo svg {
+    height: 34px;
+  }
+
+  .demo-header .btn-primary {
+    font-size: 0.65rem;
+    padding: 10px 14px;
+    letter-spacing: 0.08em;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+
+  .demo-hero h1 br {
+    display: none;
   }
 }
